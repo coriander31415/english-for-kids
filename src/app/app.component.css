@@ -8,12 +8,13 @@ h1 {
 
 .cards-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
-  grid-gap: 30px;
+  grid-gap: 20px;
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin: 20px;
 } 
 
 .card-container {
@@ -77,4 +78,22 @@ img {
   position: absolute;
   bottom: 20px;
   filter: drop-shadow(0 5px 20px rgba(0, 0, 0, 0.3));
+}
+
+@media screen and (max-width: 800px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    margin: 15px;
+  } 
+}
+
+@media screen and (max-width: 500px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+  } 
 }

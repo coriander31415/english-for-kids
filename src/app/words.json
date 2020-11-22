@@ -14,5 +14,37 @@
       {
         "img": "./assets/img/cookies.png",
         "descr": "cookies"
+      },
+      {
+        "img": "./assets/img/croissant.png",
+        "descr": "croissant"
+      },
+      {
+        "img": "./assets/img/hot-dog.png",
+        "descr": "hot dog"
+      },
+      {
+        "img": "./assets/img/spaghetti.png",
+        "descr": "spaghetti"
+      },
+      {
+        "img": "./assets/img/eggs.png",
+        "descr": "eggs"
+      },
+      {
+        "img": "./assets/img/pizza.png",
+        "descr": "pizza"
+      },
+      {
+        "img": "./assets/img/burger.png",
+        "descr": "burger"
+      },
+      {
+        "img": "./assets/img/ketchup.png",
+        "descr": "ketchup"
+      },
+      {
+        "img": "./assets/img/soup.png",
+        "descr": "soup"
       }
 ]
