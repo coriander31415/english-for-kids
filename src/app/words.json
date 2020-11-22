@@ -1,0 +1,18 @@
+ [
+      {
+        "img": "./assets/img/salad.png",
+        "descr": "salad"
+      },
+      {
+        "img": "./assets/img/cake.png",
+        "descr": "cake"
+      },
+      {
+        "img": "./assets/img/sushi.png",
+        "descr": "sushi"
+      },
+      {
+        "img": "./assets/img/cookies.png",
+        "descr": "cookies"
+      }
+]
