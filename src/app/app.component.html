@@ -1,22 +1,11 @@
-<h1>English cards</h1>
-<div class="cards-container">
-  <div class="card-container" *ngFor="let words of wordsList">
-    <div [ngClass] = "toggleProperty ? 'flipped' : ''" class="card">
-      <div class="front">
-        <ng-content select="app-card-front"></ng-content>
-        <!-- <img src="{{ words.img }}" alt="{{ words.descr}}"> -->
-        <img [src]="words.img" [alt]="words.descr">
-        <div class="arrow-icon" (click)="toggle()">
-          <i class="ion-ios-arrow-forward"></i>
-        </div>
-      </div>
-      <div class="back">
-        <ng-content select="app-card-back"></ng-content>
-        <h2>{{words.descr}}</h2>
-        <div class="arrow-icon" (click)="toggle()">
-          <i class="ion-ios-arrow-back"></i>
-        </div>
-      </div>
-    </div>
-  </div>
+<h1>Food</h1>
+<div class="cards-container" >
+  <app-card *ngFor="let words of wordsList" class="card-container">
+    <app-card-front>
+      <img [src]="words.img" alt="words.descr">
+    </app-card-front>
+    <app-card-back>
+      <h2>{{words.descr}}</h2>
+    </app-card-back>
+  </app-card>
 </div>

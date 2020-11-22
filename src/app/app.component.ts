@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import words from './words.json';
 
 @Component({
@@ -6,18 +6,6 @@ import words from './words.json';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
-
-  toggleProperty = false;
-
+export class AppComponent {
   public wordsList: {img: string, descr: string} [] = words;
-
-  constructor() { }
-
-  ngOnInit(): void { }
-
-  toggle(): void {
-    this.toggleProperty = !this.toggleProperty;
-  }
-
 }
