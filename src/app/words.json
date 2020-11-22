@@ -1,50 +1,62 @@
  [
       {
         "img": "./assets/img/salad.png",
-        "descr": "salad"
+        "descr": "salad",
+        "toggleProperty": false
       },
       {
         "img": "./assets/img/cake.png",
-        "descr": "cake"
+        "descr": "cake",
+        "toggleProperty": false
       },
       {
         "img": "./assets/img/sushi.png",
-        "descr": "sushi"
+        "descr": "sushi",
+        "toggleProperty": false
       },
       {
         "img": "./assets/img/cookies.png",
-        "descr": "cookies"
+        "descr": "cookies",
+        "toggleProperty": false
       },
       {
         "img": "./assets/img/croissant.png",
-        "descr": "croissant"
+        "descr": "croissant",
+        "toggleProperty": false
       },
       {
         "img": "./assets/img/hot-dog.png",
-        "descr": "hot dog"
+        "descr": "hot dog",
+        "toggleProperty": false
       },
       {
         "img": "./assets/img/spaghetti.png",
-        "descr": "spaghetti"
+        "descr": "spaghetti",
+        "toggleProperty": false
       },
       {
         "img": "./assets/img/eggs.png",
-        "descr": "eggs"
+        "descr": "eggs",
+        "toggleProperty": false
       },
       {
         "img": "./assets/img/pizza.png",
-        "descr": "pizza"
+        "descr": "pizza",
+        "toggleProperty": false
       },
       {
         "img": "./assets/img/burger.png",
-        "descr": "burger"
+        "descr": "burger",
+        "toggleProperty": false
       },
       {
         "img": "./assets/img/ketchup.png",
-        "descr": "ketchup"
+        "descr": "ketchup",
+        "toggleProperty": false
       },
       {
         "img": "./assets/img/soup.png",
-        "descr": "soup"
+        "descr": "soup",
+        "toggleProperty": false
       }
 ]
